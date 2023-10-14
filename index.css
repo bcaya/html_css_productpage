@@ -7,3 +7,31 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* flex containers */ 
+
+.intro, 
+.main-content {
+  display:flex; 
+  flex-direction: column;
+  padding-left:2em;  /* way to center container */
+  padding-right:2em;
+}
+
+/* intro */
+
+.intro { 
+  justify-content:space-between;
+  min-height:250px;
+  text-align:center;
+  padding-bottom:2.5em;
+}
+
+.main-content{
+  align-content:center;
+  padding-top: 2.5em;
+}
+
+.main-content p,
+form {
+    max-width: 450px;
+}
